@@ -20,6 +20,7 @@ struct VideoListView: View {
                 })
             }
             .navigationTitle("Sean's Top 10")
+            .listStyle(PlainListStyle())
         }
     }
 }
